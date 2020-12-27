@@ -102,12 +102,15 @@ header>.big>.denglu>ul>li>a:hover{
 	color: #ddd;
 	cursor: pointer;
 	position: relative;
-	position: relative;
 	/* background: greenyellow; */
 }
 .middle>.big>.left>ul>li:hover{
 	background: #169AF3 !important;
 	color: white !important;
+}
+.middle>.big>.left>ul>li a{
+	text-decoration: none;
+	color:#ddd ;
 }
 .middle>.big>.left>ul>li>ul{
 	position: absolute;
@@ -1241,14 +1244,17 @@ header>.big>.denglu>ul>li>a:hover{
 
 
 
-
+html,body{
+	position: relative;
+}
 
 
 .footer{
 	width: 100%;
 	height: 300px;
 	background:#2c323b;
-	margin-top: 400px;
+	position: absolute;
+	top: 1400px;
 }
 .footer>.one{
 	width: 100%;
@@ -1280,7 +1286,7 @@ header>.big>.denglu>ul>li>a:hover{
 	/* background: lightcoral; */
 }
 .footer>.two>ul{
-	margin-top: 34px;
+	padding-top: 34px;
 }
 .footer>.two>ul>p{
 	text-align: center;
